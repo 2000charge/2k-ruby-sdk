@@ -1,0 +1,13 @@
+source 'https://rubygems.org'
+ruby '2.2.1'
+
+gem 'multi_json'
+gem 'oj'
+gem 'rest-client'
+
+group :test do
+  gem 'minitest'
+  gem 'webmock'
+end
+# Specify your gem's dependencies in ap_ruby_sdk.gemspec
+gemspec

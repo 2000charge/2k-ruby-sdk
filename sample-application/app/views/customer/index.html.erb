@@ -1,0 +1,10 @@
+<%= form_tag customer_index_path, :method => :get do %>
+    <label>Insert customer id: </label>
+    <input id="customer_id" name="customer_id" type="text">
+
+    <%= submit_tag('Retrieve') %>
+<% end %>
+
+<% if @customer.present? %>
+    <label><%= @customer.to_json %></label>
+<% end %>

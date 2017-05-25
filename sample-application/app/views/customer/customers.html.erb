@@ -1,0 +1,4 @@
+<% @customers.items.each_with_index  do |customer, index|%>
+    <label><%= "#{index + 1}. #{customer.to_json}" %></label>
+    <br/>
+<% end %>

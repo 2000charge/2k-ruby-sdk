@@ -1,0 +1,50 @@
+PATH
+  remote: .
+  specs:
+    ap_ruby_sdk (0.1.2)
+      oj
+      rest-client (~> 1.8)
+      webmock
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.4.0)
+    crack (0.4.3)
+      safe_yaml (~> 1.0.0)
+    domain_name (0.5.20160310)
+      unf (>= 0.0.5, < 1.0.0)
+    hashdiff (0.3.0)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    mime-types (2.99.2)
+    minitest (5.9.0)
+    multi_json (1.12.1)
+    netrc (0.11.0)
+    oj (2.15.1)
+    rake (10.5.0)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    safe_yaml (1.0.4)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.7.2)
+    webmock (2.0.3)
+      addressable (>= 2.3.6)
+      crack (>= 0.3.2)
+      hashdiff
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ap_ruby_sdk!
+  bundler (~> 1.8)
+  minitest
+  multi_json
+  oj
+  rake (~> 10.0)
+  rest-client
+  webmock

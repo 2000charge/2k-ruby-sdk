@@ -1,0 +1,17 @@
+== README
+
+== PREREQUISITE
+
+    - Installed Ruby v2.2.1
+    - Installed Ruby On Rails v4.2.6
+
+== RUNNING APPLICATION
+
+    - Clone repo
+    - Inside sample-application folder run +bundle install+
+    - Inside folder +sample-application/config/initializers+ add +ap_ruby_sdk.rb+ file where you will set secret API key provided from your account
+        eg. +ApRubySdk.api_secret_key = 'Test/Live secret key provided in your 2000Charge account'+
+    - Inside same file add public API key provided from your account
+        eg. +ApRubySdk.api_public_key = 'Test/Live public key provided in your 2000Charge account'+
+    - Start Ruby On Rails server by runing +rails server+ from inside folder +sample-applicati+
+    - If your setup is default one then access application on +http://localhost:3000+
