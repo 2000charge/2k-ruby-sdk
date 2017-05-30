@@ -63,8 +63,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -92,8 +92,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -126,8 +126,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -157,8 +157,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -187,8 +187,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -216,8 +216,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -246,8 +246,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -275,8 +275,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -304,8 +304,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -333,8 +333,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -362,8 +362,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -399,8 +399,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(
@@ -436,8 +436,8 @@ class TransactionController < ApplicationController
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     @transaction = ApRubySdk::Transaction.create(

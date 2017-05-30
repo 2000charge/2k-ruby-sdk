@@ -123,8 +123,8 @@ class TransactionTest < Minitest::Test
             'merchantPassThruData'=> 'Order #1234958',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-              'returnUrl'=> 'http://plugins.alternativepayments.com/message/success.html',
-              'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+              'returnUrl'=> 'http://2000charge.com/message/success.html',
+              'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             },
         },
         :headers => {}))
@@ -143,8 +143,8 @@ class TransactionTest < Minitest::Test
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     transaction = ApRubySdk::Transaction.create(
@@ -222,8 +222,8 @@ class TransactionTest < Minitest::Test
             'merchantPassThruData' => 'Order #1234958',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-                'returnUrl'=> 'http://plugins.alternativepayments.com/message/success.html',
-                'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                'returnUrl'=> 'http://2000charge.com/message/success.html',
+                'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             },
             'ipAddress' => '89.216.124.9',
             'redirectUrl' => 'http://mybankingsite.com/hRedirection.aspx?transaction_id=trn_1a5f5e0c97',
@@ -245,8 +245,8 @@ class TransactionTest < Minitest::Test
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     transaction = ApRubySdk::Transaction.create(
@@ -332,8 +332,8 @@ class TransactionTest < Minitest::Test
             'merchantPassThruData' => 'Order #1234958',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-                'returnUrl'=> 'http://plugins.alternativepayments.com/message/success.html',
-                'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                'returnUrl'=> 'http://2000charge.com/message/success.html',
+                'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             },
             'ipAddress' => '89.216.124.9',
             'redirectUrl' => 'http://mybankingsite.com/hRedirection.aspx?transaction_id=trn_1a5f5e0c97',
@@ -363,8 +363,8 @@ class TransactionTest < Minitest::Test
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     transaction = ApRubySdk::Transaction.create(
@@ -546,7 +546,7 @@ class TransactionTest < Minitest::Test
             'currency' => 'EUR',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-                'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             }
         },
         :headers => {}))
@@ -634,8 +634,8 @@ class TransactionTest < Minitest::Test
             'currency' => 'EUR',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-                'returnUrl'=> 'http://plugins.alternativepayments.com/message/success.html',
-                'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                'returnUrl'=> 'http://2000charge.com/message/success.html',
+                'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             },
             'ipAddress' => '89.216.124.9',
             'redirectUrl' => 'http://mybankingsite.com/hRedirection.aspx?transaction_id=trn_1a5f5e0c97'
@@ -656,8 +656,8 @@ class TransactionTest < Minitest::Test
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     transaction = ApRubySdk::Transaction.create(
@@ -731,8 +731,8 @@ class TransactionTest < Minitest::Test
             'currency' => 'EUR',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-                'returnUrl'=> 'http://plugins.alternativepayments.com/message/success.html',
-                'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                'returnUrl'=> 'http://2000charge.com/message/success.html',
+                'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             },
             'ipAddress' => '89.216.124.9',
             'redirectUrl' => 'http://mybankingsite.com/hRedirection.aspx?transaction_id=trn_1a5f5e0c97'
@@ -754,8 +754,8 @@ class TransactionTest < Minitest::Test
     )
 
     redirectUrls = ApRubySdk::RedirectUrls.new(
-        'returnUrl' => 'http://plugins.alternativepayments.com/message/success.html',
-        'cancelUrl' => 'http://plugins.alternativepayments.com/message/failure.html'
+        'returnUrl' => 'http://2000charge.com/message/success.html',
+        'cancelUrl' => 'http://2000charge.com/message/failure.html'
     )
 
     transaction = ApRubySdk::Transaction.create(
@@ -922,7 +922,7 @@ class TransactionTest < Minitest::Test
                     'currency' => 'EUR',
                     'created' => '2016-03-24T15:19:10.7800694Z',
                     'redirectUrls'=> {
-                        'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                        'cancelUrl'=> 'http://2000charge.com/message/failure.html'
                     }
                 },
                 {
@@ -1010,7 +1010,7 @@ class TransactionTest < Minitest::Test
             'currency' => 'EUR',
             'created' => '2016-03-24T15:19:10.7800694Z',
             'redirectUrls'=> {
-                'cancelUrl'=> 'http://plugins.alternativepayments.com/message/failure.html'
+                'cancelUrl'=> 'http://2000charge.com/message/failure.html'
             }
         },
         :headers => {}))

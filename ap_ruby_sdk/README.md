@@ -21,11 +21,11 @@ Or install it yourself as:
 In your initializing files add line:
 
     if Rails.env.production?
-      ApRubySdk.api_secret_key = 'Live secret key provided from your AP account'
-      ApRubySdk.api_public_key = 'Live public key provided from your AP account'
+      ApRubySdk.api_secret_key = 'Live secret key provided from your 2000Charge account'
+      ApRubySdk.api_public_key = 'Live public key provided from your 2000Charge account'
     else
-      ApRubySdk.api_secret_key = 'Test secret key provided from your AP account'
-      ApRubySdk.api_public_key = 'Test public key provided from your AP account'
+      ApRubySdk.api_secret_key = 'Test secret key provided from your 2000Charge account'
+      ApRubySdk.api_public_key = 'Test public key provided from your 2000Charge account'
     end
 
 ## Usage
